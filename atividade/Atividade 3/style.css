@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+body{
+    background-color: rgb(236, 236, 236);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    min-width: 20%;
+    padding: 20px;
+    background-color: white;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+}
+.pesquisa h2{
+    text-align: center;
+    color: #2c3e50;
+    font-weight: bold;
+}
+.pesquisa button{
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: #2c3e50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.tabuada{
+    display: none;
+}
+.tabuada h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.tabuada .item{
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center
+}
+.item span{
+    display:inline-block;
+    align-content: center;
+    background-color: gray;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    min-width: 30px;
+    min-height: 30px;
+    margin-left: 2px;
+    font-weight: bold;
+}
+.item .resultado_1,
+.item .resultado_2,
+.item .resultado_3,
+.item .resultado_4,
+.item .resultado_5,
+.item .resultado_6,
+.item .resultado_7,
+.item .resultado_8,
+.item .resultado_9,
+.item .resultado_10
+{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.item .multiplicador{
+    background-color: red;
+    color: white;
+}
+.item .igual,
+.item .numero,
+.item .valor_multiplicado{
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+}

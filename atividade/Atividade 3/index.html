@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pesquisa">
+            <h2>Tabuada <span class="numero"></span></h2>
+            <label for="valor">Número: </label>
+            <input class="w3-input w3-border w3-round-xxlarge" type="text" id="valor" required>
+            <button id="enter" onclick="calcular()">Calcular</button>
+        </div>
+        <div class="tabuada">
+            <div class="lista-tabuada">
+                <div class="item">
+                    <span class="numero"></span>
+                    <span class="multiplicador"> &#9747; </span>
+                    <span class="valor_multiplicado">1</span>
+                    <span class="igual"> &#8332; </span>
+                    <span class="resultado_1"></span>
+                </div>
+                <div class="item">
+                    <span class="numero"></span>
+                    <span class="multiplicador"> &#9747; </span>
+                    <span class="valor_multiplicado">2</span>
+                    <span class="igual"> &#8332; </span>
+                    <span class="resultado_2"></span>
+                </div>
+                <div class="item">
+                    <span class="numero"></span>
+                    <span class="multiplicador"> &#9747; </span>
+                    <span class="valor_multiplicado">3</span>
+                    <span class="igual"> &#8332; </span>
+                    <span class="resultado_3"></span>
+                </div>
+                <div class="item">
+                    <span class="numero"></span>
+                    <span class="multiplicador"> &#9747; </span>
+                    <span class="valor_multiplicado">4</span>
+                    <span class="igual"> &#8332; </span>
+                    <span class="resultado_4"></span>
+                </div>
+                <div class="item">
+                    <span class="numero"></span>
+                    <span class="multiplicador"> &#9747; </span>
+                    <span class="valor_multiplicado">5</span>
+                    <span class="igual"> &#8332; </span>
+                    <span class="resultado_5"></span>
+                </div>
+                <div class="item">
+                    <span class="numero"></span>
+                    <span class="multiplicador"> &#9747; </span>
+                    <span class="valor_multiplicado">6</span>
+                    <span class="igual"> &#8332; </span>
+                    <span class="resultado_6"></span>
+                </div>
+                <div class="item">
+                    <span class="numero"></span>
+                    <span class="multiplicador"> &#9747; </span>
+                    <span class="valor_multiplicado">7</span>
+                    <span class="igual"> &#8332; </span>
+                    <span class="resultado_7"></span>
+                </div>
+                <div class="item">
+                    <span class="numero"></span>
+                    <span class="multiplicador"> &#9747; </span>
+                    <span class="valor_multiplicado">8</span>
+                    <span class="igual"> &#8332; </span>
+                    <span class="resultado_8"></span>
+                </div>
+                <div class="item">
+                    <span class="numero"></span>
+                    <span class="multiplicador"> &#9747; </span>
+                    <span class="valor_multiplicado">9</span>
+                    <span class="igual"> &#8332; </span>
+                    <span class="resultado_9"></span>
+                </div>
+                <div class="item">
+                    <span class="numero"></span>
+                    <span class="multiplicador"> &#9747; </span>
+                    <span class="valor_multiplicado">10</span>
+                    <span class="igual"> &#8332; </span>
+                    <span class="resultado_10"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

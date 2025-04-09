@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisando Data e Hora</title>
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="topo">
+            <h2>Analisando Data e Hora do sistema</h2>
+            <div class="cont_botao">
+                <button class="botao" type="button" onclick="analiseHora()">Iniciar Análise</button>
+            </div>
+        </div>
+        <div class="secoes">
+            <div class="analise">
+                <p>Hora: <span id="hora"></span></p>
+                <p>Minutos: <span id="minutos"></span></p>
+                <p>Segundos: <span id="segundos"></span></p>
+                <p>Mês: <span id="mes"></span></p>
+                <p>Ano: <span id="ano"></span></p>
+                <p>Dia da Semana: <span id="dia_semana"></span></p>
+                <p>Dia: <span id="dia"></span></p>
+            </div>
+            <div id="relogio" style="height: 600px"></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
